@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'employee' => 'Employee Enrollment',
+    'failed' => 'این مدارک با سوابق ما مطابقت ندارد.',
+    'throttle' => 'تلاش برای ورود به سیستم بسیار زیاد است. لطفاً دوباره امتحان کنید: ثانیه ثانیه.',
+    'employee' => 'ثبت نام کارمند',
 
 ];
