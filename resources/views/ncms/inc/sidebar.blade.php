@@ -33,10 +33,10 @@
                             </div>
                         </a>
                         <ul class="collapse submenu list-unstyled {{ ($category_name === 'Employees') ? 'show' : '' }}" id="employees" data-parent="#accordionExample">
-                            <li class="{{ ($page_name === 'Add_employee') ? 'active' : '' }}">
+                            <li class="{{ ($page_name === 'addEmployee') ? 'active' : '' }}">
                                 <a href="{{route('admin.employee.create')}}"> Add Employee </a>
                             </li>
-                            <li class="{{ ($page_name === 'create_employee') ? 'active' : '' }}">
+                            <li class="{{ ($page_name === 'ListEmployee') ? 'active' : '' }}">
                                 <a href="/users/account_settings"> Employee List </a>
                             </li>
                         </ul>

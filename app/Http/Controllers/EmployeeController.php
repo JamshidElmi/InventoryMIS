@@ -9,7 +9,7 @@ class EmployeeController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response 
+     * @return \Illuminate\Http\Response
      */
     public function index()
     {
@@ -25,7 +25,7 @@ class EmployeeController extends Controller
     {
         $data = [
             'category_name' => 'Employees',
-            'page_name' => 'Add_employee',
+            'page_name' => 'addEmployee',
             'has_scrollspy' => 0,
             'scrollspy_offset' => '',
         ];
