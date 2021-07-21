@@ -14,7 +14,7 @@ class LoginController extends Controller
     {
         $data = [
             'category_name' => 'auth',
-            'page_name' => 'auth_default',
+            'page_name' => 'auth_boxed',
             'has_scrollspy' => 0,
             'scrollspy_offset' => '',
         ];
@@ -53,7 +53,7 @@ class LoginController extends Controller
 //        Auth::logout();
         $data = [
             'category_name' => 'auth',
-            'page_name' => 'auth_default',
+            'page_name' => 'auth_boxed',
             'has_scrollspy' => 0,
             'scrollspy_offset' => '',
             'username'=>$username->first_name

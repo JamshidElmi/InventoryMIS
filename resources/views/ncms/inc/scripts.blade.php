@@ -1073,8 +1073,34 @@
       <script src="{{asset('plugins/jquery-step/custom-jquery.steps.js')}}"></script>
       @break
 
+    {{-- Custome section for adding the scripts to specific pages --}}
+
+    @case('addEmployee')
+    <script src="{{asset('assets/js/scrollspyNav.js')}}"></script>
+    <script src="{{asset('plugins/select2/select2.min.js')}}"></script>
+    <script src="{{asset('plugins/select2/custom-select2.js')}}"></script>
+    {{-- Forms File Upload --}}
+    <script src="{{asset('assets/js/scrollspyNav.js')}}"></script>
+    <script src="{{asset('plugins/file-upload/file-upload-with-preview.min.js')}}"></script>
+    <script>
+        //First upload
+        var firstUpload = new FileUploadWithPreview('myFirstImage')
+        //Second upload
+        var secondUpload = new FileUploadWithPreview('mySecondImage')
+    </script>
+    {{--  Font Icons  --}}
+    <script src="{{asset('plugins/font-icons/feather/feather.min.js')}}"></script>
+    <script type="text/javascript">
+        feather.replace();
+    </script>
+    @break
+
+    {{-- End Custome section for adding the scripts to specific pages --}}
+
     @default
     <script>console.log('No custom script available.')</script>
 @endswitch
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+
+@yield('addRow')
 

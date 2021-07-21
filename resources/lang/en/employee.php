@@ -24,5 +24,11 @@ return [
     'hiring_date' => 'Hiring Date',
     'office_address' => 'Office Address',
     'shipment_address' => 'Shipment Address',
+    'gender' => 'Gender',
+    'male' => 'Male',
+    'female' => 'Female',
+    'select_option' => 'Select an Option',
+    'profile_picture' => 'Profile Picture',
+    'national_id' => 'National ID',
 
 ];
